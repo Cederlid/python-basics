@@ -10,6 +10,7 @@ parser.add_argument("--problem", type=bool, default=True, help="Do you have comp
 args = parser.parse_args()
 
 def evaluate_computer(name, age, computer, problem):
+    computer = computer.lower()
     if age > 18:
         if problem:
             if computer == "windows":
