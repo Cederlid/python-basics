@@ -1,6 +1,6 @@
 import argparse
 
-parser = argparse.ArgumentParser(description="Tells you if your computer is bad")
+parser = argparse.ArgumentParser(description="Tells you why you have a problem with your computer")
 
 parser.add_argument("--name", type=str, required=True)
 parser.add_argument("--age", type=float, required=True)
